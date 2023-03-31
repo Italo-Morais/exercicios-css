@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+}
+
+button  {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  gap: .4rem;
+  background-color: rgba(195, 30, 66, 0.503);
+  border-radius: .8rem;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background: tomato;
+  transition: 800ms;
+  
+}
